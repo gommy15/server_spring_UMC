@@ -1,7 +1,6 @@
 package com.example.demo.src.inquire;
 
 import com.example.demo.src.inquire.model.PostInquireReq;
-import com.example.demo.src.todo.model.GetTodoRes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

@@ -1,9 +1,5 @@
 package com.example.demo.src.inquire;
 
-import com.example.demo.config.BaseException;
-import com.example.demo.src.todo.TodoDao;
-import com.example.demo.src.todo.model.GetTodoListRes;
-import com.example.demo.src.todo.model.GetTodoRes;
 import com.example.demo.utils.JwtService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
