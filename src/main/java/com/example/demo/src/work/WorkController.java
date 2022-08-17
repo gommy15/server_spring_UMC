@@ -34,7 +34,7 @@ public class WorkController {
 
     //투두 조회하기
     @ResponseBody
-    @GetMapping("/{todoDate}")
+    @PostMapping("/{todoDate}/select")
     public BaseResponse<GetWorkListRes> getWorkList(@PathVariable("todoDate") String todoDate) {
 
         try{
